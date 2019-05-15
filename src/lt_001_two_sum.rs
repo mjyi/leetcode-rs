@@ -12,7 +12,6 @@ return [0, 1].
 ```
  */
 
-
 pub struct Solution;
 
 impl Solution {
@@ -36,9 +35,5 @@ impl Solution {
     }
 }
 
-fn main() {
-
-    let nums = vec![2 ,7, 11, 15];
-    println!("{:?}", Solution::two_sum(nums, 9));
-}
-
+#[cfg(test)]
+mod tests {}
